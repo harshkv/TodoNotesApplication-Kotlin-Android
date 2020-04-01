@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.harshithakv.notesinkotlin.views.TaskView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/item_margin_default"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="@dimen/item_margin_default"
+        app:layout_constraintEnd_toStartOf="@id/deleteButton"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/deleteButton"
+        android:layout_width="@dimen/image_icon_default"
+        android:layout_height="@dimen/image_icon_default"
+        android:layout_marginEnd="@dimen/item_margin_default"
+        android:background="@color/transparent"
+        android:src="@drawable/ic_delete"
+        app:layout_constraintBottom_toBottomOf="@id/titleView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/titleView" />
+
+
+    <LinearLayout
+        android:id="@+id/todoContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleView">
+
+    </LinearLayout>
+
+
+</com.harshithakv.notesinkotlin.views.TaskView>

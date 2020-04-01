@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.harshithakv.notesinkotlin.views.CreateTodoView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/image_icon_default"
+        android:layout_height="@dimen/image_icon_default"
+        android:layout_marginStart="@dimen/item_margin_small"
+        android:layout_marginTop="@dimen/item_margin_default"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/ic_add_black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/todoEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/item_margin_small"
+        app:layout_constraintBottom_toBottomOf="@id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:hint="@string/hint_add_todo"
+        app:layout_constraintStart_toEndOf="@id/imageView"
+        app:layout_constraintTop_toTopOf="@id/imageView"
+        app:layout_goneMarginEnd="@dimen/item_margin_small"
+
+        />
+
+
+</com.harshithakv.notesinkotlin.views.CreateTodoView>
