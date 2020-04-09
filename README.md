@@ -8,8 +8,7 @@ Built a complex, scalable, modular Notes Application using MVVM Architecture and
 
 
 ## Project characteristics 
---------------------
-
+-------
 * [Kotlin](https://kotlinlang.org/)
 * Architecture Design (Model-View-ViewModel)
 * [Android Jetpack](https://developer.android.com/jetpack)
@@ -20,8 +19,7 @@ Built a complex, scalable, modular Notes Application using MVVM Architecture and
 
 
 ## Built with
--------------
-
+-------
 * [Kotlin](https://kotlinlang.org/) - Android mobile development has been Kotlin-first since Google I/O in 2019.
 * [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - Asynchronous or non-blocking programming
 * [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) MVVM stands for Model, View, ViewModel.
