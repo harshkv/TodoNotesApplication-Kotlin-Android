@@ -24,7 +24,7 @@ Built a complex, scalable, modular Notes Application using MVVM Architecture and
 * [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - Asynchronous or non-blocking programming
 * [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) MVVM stands for Model, View, ViewModel.
 * [LiveData](https://developer.android.com/topic/libraries/architecture/livedata) - Data objects that notify views when the underlying data changes
-* [JetPack bottom Navigation Component] - Allows interactions to navigate across, into, and back out from the different pieces of content in the applcation
+* JetPack bottom Navigation Component - Allows interactions to navigate across, into, and back out from the different pieces of content in the applcation
  * [Room](https://developer.android.com/topic/libraries/architecture/room) - SQLite object mapping library
  * [Toothpick Dependency Injection](https://academy.realm.io/posts/droidcon-boston-daniel-molinero-toothpick-dependency-injection-android/)Toothpick is a scope tree based, runtime with a special focus on Android 
 * [DataBinding](https://developer.android.com/topic/libraries/data-binding) - The Data Binding Library is a support library that allows you to bind UI components in your layouts to data sources
