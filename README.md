@@ -21,13 +21,13 @@ Built a complex, scalable, modular Notes Application using MVVM Architecture and
 ## Built with
 -------
 * [Kotlin](https://kotlinlang.org/) - Android mobile development has been Kotlin-first since Google I/O in 2019.
-* [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - Asynchronous or non-blocking programming
+* [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - Asynchronous or non-blocking programming.
 * [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) MVVM stands for Model, View, ViewModel.
-* [LiveData](https://developer.android.com/topic/libraries/architecture/livedata) - Data objects that notify views when the underlying data changes
-* JetPack bottom Navigation Component - Allows interactions to navigate across, into, and back out from the different pieces of content in the applcation
- * [Room](https://developer.android.com/topic/libraries/architecture/room) - SQLite object mapping library
- * [Toothpick Dependency Injection](https://academy.realm.io/posts/droidcon-boston-daniel-molinero-toothpick-dependency-injection-android/)Toothpick is a scope tree based, runtime with a special focus on Android 
-* [DataBinding](https://developer.android.com/topic/libraries/data-binding) - The Data Binding Library is a support library that allows you to bind UI components in your layouts to data sources
+* [LiveData](https://developer.android.com/topic/libraries/architecture/livedata) - Data objects that notify views when the underlying data changes.
+* [JetPack bottom Navigation Component](https://developer.android.com/jetpack) - Jetpack is a suite of libraries, tools, and guidance to help developers write high-quality apps more easily.
+ * [Room](https://developer.android.com/topic/libraries/architecture/room) - SQLite object mapping library.
+ * [Toothpick Dependency Injection](https://academy.realm.io/posts/droidcon-boston-daniel-molinero-toothpick-dependency-injection-android/) - Toothpick is a scope tree based, runtime with a special focus on Android.
+* [DataBinding](https://developer.android.com/topic/libraries/data-binding) - The Data Binding Library is a support library that allows you to bind UI components in your layouts to data sources.
 
  
  
