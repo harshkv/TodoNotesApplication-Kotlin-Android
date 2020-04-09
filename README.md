@@ -13,7 +13,7 @@ Built a complex, scalable, modular Notes Application using MVVM Architecture and
 * Architecture Design (Model-View-ViewModel)
 * [Android Jetpack](https://developer.android.com/jetpack)
 * Single-activity architecture, using the [Navigation component](https://developer.android.com/guide/navigation/navigation-getting-started)
-* Dependency Injection (Toothpick)
+* [Dependency Injection- Toothpick](https://academy.realm.io/posts/droidcon-boston-daniel-molinero-toothpick-dependency-injection-android/)
 * Material Design 
 
 
